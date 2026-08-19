@@ -1,0 +1,105 @@
+# Secrets — never commit
+.env
+.env.*
+*.env
+*.key
+*.token
+*.pem
+*.p12
+credentials.json
+secrets/
+
+# Local state
+*.local
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.tox/
+*.egg-info/
+
+# Node
+node_modules/
+.npm
+.yarn
+.pnp.*
+
+# Build artifacts
+dist/
+build/
+out/
+target/
+bin/
+obj/
+
+# Data / vault (private split)
+raw/
+inbox/
+journal/
+wiki/
+projects/
+people/
+companies/
+assets/
+servers/
+domains/
+decisions/
+procedures/
+skills/
+ideas/
+risks/
+autonomy/
+vault-references/
+indexes/
+archive/
+backups/
+data/
+vector_store/
+
+# MT5 / trading
+*.mqh
+*.ex5
+*.set
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Telethon / Telegram sessions
+*.session
+*.session-journal
+
+# Obsidian
+.obsidian/
+.kanban/
+.daily/
+
+# Local CI / test artifacts
+test-results/
+playwright-report/
+playwright/.cache/
